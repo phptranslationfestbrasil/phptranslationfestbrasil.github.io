@@ -1,0 +1,15 @@
+[
+   {
+      "phprs":{
+      	
+         "local":"123",
+         "organizacao":"456"
+      }
+   },
+   {
+      "phpsc":{
+         "local":"123",
+         "organizacao":"456"
+      }
+   }
+]
