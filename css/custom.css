@@ -8,6 +8,16 @@
 	border-bottom: solid 5px #4F5B93;
 	
 }
+#footer-container {
+	/*background:url(?holder.js/9999x9999/social) no-repeat; */
+	background: #8892BF;
+	color: white;
+	
+}
+a.footer-link {
+	text-decoration: none;
+	color: white;
+}
 .img-estados {
 	height: 50px;
 	margin-right: 10px;
