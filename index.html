@@ -40,7 +40,7 @@
 
 					<div class="col-md-4 col-sm-6 box-estados">
 						<div class="panel panel-default">
-							<a href="#PHPSP" aria-controls="home" role="tab" data-toggle="tab">
+							<a href="#PHPSP" class="scroll-to" aria-controls="home" role="tab" data-toggle="tab">
 								<div class="panel-body bg-default">
 									<img src="holder.js/50x50" class="img-rounded img-estados pull-left">
 									<h3 class="titulo-estados">São Paulo</h3>
@@ -50,7 +50,7 @@
 					</div>
 					<div class="col-md-4 col-sm-6 box-estados">
 						<div class="panel panel-default">
-							<a href="#PHPRS" aria-controls="home" role="tab" data-toggle="tab">
+							<a href="#PHPRS" class="scroll-to" aria-controls="home" role="tab" data-toggle="tab">
 								<div class="panel-body bg-default">
 									<img src="holder.js/50x50" class="img-rounded img-estados pull-left">
 									<h3 class="titulo-estados">Rio Grande do Sul</h3>
@@ -60,7 +60,7 @@
 					</div>
 					<div class="col-md-4 col-sm-6 box-estados">
 						<div class="panel panel-danger">
-							<a href="#PHPPR" aria-controls="home" role="tab" data-toggle="tab">
+							<a href="#PHPPR" class="scroll-to" aria-controls="home" role="tab" data-toggle="tab">
 								<div class="panel-body bg-default">
 									<img src="holder.js/50x50" class="img-rounded img-estados pull-left">
 									<h3 class="titulo-estados text-danger">Curitiba <small>(falta dados)</small></h3>
@@ -71,7 +71,7 @@
 
 					<div class="col-md-4 col-sm-6 box-estados">
 						<div class="panel panel-danger">
-							<a href="#PHPMA" aria-controls="home" role="tab" data-toggle="tab">
+							<a href="#PHPMA" class="scroll-to" aria-controls="home" role="tab" data-toggle="tab">
 								<div class="panel-body bg-default">
 									<img src="holder.js/50x50" class="img-rounded img-estados pull-left">
 									<h3 class="titulo-estados text-danger">Maranhão <small>(falta dados)</small></h3>
@@ -81,7 +81,7 @@
 					</div>
 					<div class="col-md-4 col-sm-6 box-estados">
 						<div class="panel panel-default">
-							<a href="#PHPSC-CH" aria-controls="home" role="tab" data-toggle="tab">
+							<a href="#PHPSC-CH" class="scroll-to" aria-controls="home" role="tab" data-toggle="tab">
 								<div class="panel-body bg-default">
 									<img src="holder.js/50x50" class="img-rounded img-estados pull-left">
 									<h3 class="titulo-estados">Chapecó</h3>
@@ -91,7 +91,7 @@
 					</div>
 					<div class="col-md-4 col-sm-6 box-estados">
 						<div class="panel panel-default">
-							<a href="#PHPSC-GF" aria-controls="home" role="tab" data-toggle="tab">
+							<a href="#PHPSC-GF" class="scroll-to" aria-controls="home" role="tab" data-toggle="tab">
 								<div class="panel-body bg-default">
 									<img src="holder.js/50x50" class="img-rounded img-estados pull-left">
 									<h3 class="titulo-estados">Grande Florianópolis</h3>
@@ -102,7 +102,7 @@
 				</div>
 
 				<!-- Grupos -->
-				<div class="row">
+				<div class="row" id="scroll-target">
 					<div class="col-md-12 col-sm-12">
 						<div class="tab-content">
 
@@ -379,6 +379,12 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 	<script src="js/holder.js"></script>
-	
+	<script>
+		$(".scroll-to").click(function() {
+			$('html, body').animate({
+				scrollTop: $("#scroll-target").offset().top
+			}, 500);
+		});
+	</script>
 </body>
 </html>
