@@ -1,7 +1,7 @@
 phptranslationfestbrasil.github.io
 ==================================
 
-- Chat: [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/phptranslationfestbrasil/phptranslationfestbrasil.github.io)
+- Chat: [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/phptranslationfestbrasil/chat)
 
 - Hotsite: https://phptranslationfestbrasil.github.io/
 
