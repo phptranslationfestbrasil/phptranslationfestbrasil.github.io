@@ -1,3 +1,8 @@
 phptranslationfestbrasil.github.io
 ==================================
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/phptranslationfestbrasil/phptranslationfestbrasil.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+- Chat: [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/phptranslationfestbrasil/chat)
+
+- Hotsite: https://phptranslationfestbrasil.github.io/
+
+- Wiki "pré oficial": https://github.com/phptranslationfestbrasil/phptranslationfestbrasil.github.io/wiki/Wiki-pr%C3%A9-oficial
